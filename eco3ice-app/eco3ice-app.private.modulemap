@@ -1,0 +1,11 @@
+//
+//  eco3ice-app.private.modulemap
+//  eco3ice-app
+//
+//  Created by Jessie Wooten on 10/22/17.
+//  Copyright © 2017 Franke. All rights reserved.
+//
+module NetworkTools {
+    header "Obj-C Tools/NetworkTools.h"
+    export *
+}
