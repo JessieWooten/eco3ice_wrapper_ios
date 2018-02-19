@@ -47,9 +47,9 @@ class ViewController: UIViewController, UIWebViewDelegate {
         
         do {
             let server = demoServer(Bundle.main.resourcePath!)
-            server["/eco3ice/:params"] = { r in   // HttpRequest object.
+            server["/response/:params"] = { r in   // HttpRequest object.
                 let callback = r.params[":params"]?.removingPercentEncoding ?? ""
-//                print( "This is the callback: \(callback)" )
+                print( "This is the callback: \(callback)" )
                 DispatchQueue.main.async {
                     self.webView.stringByEvaluatingJavaScript(from: "window.vue.$children[0].dataUpdate('\(callback)')")
                 }
@@ -57,7 +57,7 @@ class ViewController: UIViewController, UIWebViewDelegate {
                     try writer.write([UInt8]("Thanks".utf8))
                 })
             };
-            try server.start(9080)
+            try server.start(80)
             self.server = server
         } catch {
             print("Server start error: \(error)")
@@ -110,7 +110,7 @@ class ViewController: UIViewController, UIWebViewDelegate {
         self.webView.loadRequest(urlRequest)
     }
     
-// Return IP address of WiFi interface (en0) as a String, or `nil`
+// Sets IP address of WiFi interface (en0) to appIP variable
     func getWiFiAddress() {
         var address : String?
         
@@ -152,6 +152,7 @@ class ViewController: UIViewController, UIWebViewDelegate {
                 //if ip has been set for app, check if it has changed since last check.
                 if appIP != address {
                     //alert user that ip has changed
+                    self.webView.stringByEvaluatingJavaScript(from: "window.vue.$children[0].connectOpened = false;")
                     self.webView.stringByEvaluatingJavaScript(from: "window.vue.$children[0].ipChanged = true;")
                     appIP = address!;
                 }
@@ -188,7 +189,7 @@ class ViewController: UIViewController, UIWebViewDelegate {
     
 //Send command to Ecoice unit
     func sendCommand(command: String) {
-        let unitUrl = "http://" + selectedUnitIP + ":8081/command?command=" + command
+        let unitUrl = "http://" + selectedUnitIP + ":80/command?ipaddr=" + appIP + "&command=" + command
         print("send command to: \(unitUrl)")
         var request = URLRequest(url: URL(string: unitUrl)!)
         request.httpMethod = "GET"
@@ -222,7 +223,7 @@ class ViewController: UIViewController, UIWebViewDelegate {
                                 let withParam = String(describing: request);
                                 let param = String(stripCommand(command: withParam));
                                 print("|||CAPACITY|||: ", param!)
-                                let unitUrl = "http://" + selectedUnitIP + ":8081/command?command=" + param!
+                                let unitUrl = "http://" + selectedUnitIP + ":80/command?ipaddr=" + appIP + "&command=" + param!
                                 print("send command to: \(unitUrl)")
                                 var request = URLRequest(url: URL(string: unitUrl)!)
                                 //print("REQUEST: ")
@@ -232,10 +233,12 @@ class ViewController: UIViewController, UIWebViewDelegate {
                                     print("Entered the completionHandler")
                                 }.resume()
                             }else if command == "rename" {
+//looksomewhere in here for rename:newname
                                 let withParam = String(describing: request);
+                                print(withParam)
                                 let param = String(stripCommand(command: withParam));
                                 print("|||RENAME|||: ", param!)
-                                let unitUrl = "http://" + selectedUnitIP + ":8081/command?command=" + param!
+                                let unitUrl = "http://" + selectedUnitIP + ":80/rename?name=" + param!
                                 print("send command to: \(unitUrl)")
                                 var request = URLRequest(url: URL(string: unitUrl)!)
                                 //print("REQUEST: ")
@@ -298,7 +301,7 @@ class ViewController: UIViewController, UIWebViewDelegate {
                             DispatchQueue.global().async {
                                 IPRoot[3] = String(i)
                                 let reqIP = IPRoot.joined(separator: ".")
-                                let reqPort = "http://" + reqIP + ":8081/info?ip=" + appIP
+                                let reqPort = "http://" + reqIP + ":80/info"
                                 let scanRequest = URL(string: reqPort)
                                 //print(reqPort)
                         

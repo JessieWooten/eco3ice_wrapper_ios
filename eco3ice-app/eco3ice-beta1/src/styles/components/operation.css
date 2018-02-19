@@ -1,0 +1,294 @@
+.status-container {
+  height: 70%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.status-wrapper{
+padding-top: 16px;
+}
+
+.status-title-wrapper{
+  height: 30%;
+}
+
+.status-icon-inline {
+  height: 10.5vw;
+  display: inline-block;
+}
+
+.status-icon {
+  height: 10.6vw;
+  display: block;
+  margin: auto;
+  padding-top: 12px;
+}
+
+.status-text {
+  text-align: center;
+  font-size: 6vw;
+  margin: 0;
+  padding: 0 10px;
+}
+
+.status-text-blank {
+  display: inline-block;
+  font-size: 15vw;
+  margin: 0;
+}
+
+.status-text-ok {
+  display: inline-block;
+  font-size: 17vw;
+  padding-right: 20px;
+  margin: 0;
+}
+
+/*Health Section Styling*/
+.health-container {
+  height: 60%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 0 10px;
+}
+
+.health-wrapper {
+}
+
+.health-title-wrapper{
+  height: 40%;
+}
+
+.health-icon {
+  width: 8vw;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.health-text {
+  display: inline-block;
+  font-size: 6.7vw;
+  padding-top:20px;
+  margin: 0;
+}
+
+.water-icon {
+  height: 3vh;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+/*preloader styling*/
+.preloader-status {
+  position: relative;
+  height: 50px;
+  margin-bottom: 10px;
+  margin-top: 17px;
+}
+
+/*preloader styling*/
+.preloader-health {
+  position: relative;
+  height: 30px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+/* Disconnect Launcher Styling */
+.disconnect-wrapper {
+  display: flex !important;
+  justify-content: center !important;
+}
+
+.disconnect-launcher {
+  /*width: 35px;
+  height: 35px;*/
+}
+
+.disconnect-icon {
+  text-align: center !important;
+  display: block !important;
+  opacity: .3 !important;
+  color: #ffffff !important;
+  font-size: 2em;
+  padding: 1vh 3vw;
+}
+
+
+
+
+/*|||| CONSUMPTION STYLING ||||*/
+.consumption-text {
+  display: inline-block;
+  font-size: 15vw;
+  margin: 0;
+}
+
+.weight-image-wrapper{
+  display: inline;
+  position:relative;
+}
+
+.weight-text{
+  left: 0;
+  position:absolute;
+  text-align:center;
+  top: -8px;
+  width: 100%;
+  font-size: 3vw;
+}
+
+.avg-consumption-wrapper__title {
+  width: 60%;
+  height: 100%;
+  display: inline-block;
+}
+
+.avg-consumption__title {
+  padding-left: 20px;
+  display: block;
+  margin: 0;
+  align-self: flex-start;
+}
+
+.avg-consumption-wrapper__display {
+  width:35%;
+  height: 100%;
+  display: inline-block;
+  align-self: flex-end;
+  margin: auto;
+}
+.avg-consumption-display__top {
+  width: 100%;
+
+}
+
+.avg-consumption-display__bottom {
+width: 100%;
+
+}
+
+.avg-consumption-number {
+  text-align: right;
+  display: inline-block;
+  font-size: 10vw;
+}
+
+.avg-consumption-display__daily {
+  margin: 0;
+  color: #b6b2b2;
+  text-align: right;
+  position: relative;
+  bottom: 11px;
+  font-size: 5vw;
+  font-weight: 300;
+}
+
+.avg-consumption-icon {
+  height: 8vw;
+  display: inline-block;
+  margin: auto;
+}
+
+/* ||| PAGE 3 STYLING |||*/
+.purchase-link {
+  width: 100%;
+  text-decoration: none;
+}
+
+.shopping-cart {
+  width: 45%;
+}
+
+.purchase-wrapper__icon {
+  width: 25%;
+  height: 100%;
+  display: inline-block;
+}
+
+.purchase-wrapper__text {
+  width: 75%;
+  height: 100%;
+  display: inline-block;
+  align-self: flex-end;
+  margin: auto
+}
+
+.purchase-text {
+  color: #5a5a5a;
+  font-size: 5.5vw;
+}
+
+.purchase-arrow {
+  color: #b6b2b2;
+  font-size: 18px;
+  padding-left: 5px;
+}
+
+.purchase-prompt__title {
+  color: #5a5a5a;
+    text-align: center;
+    display: block;
+    font-size: 16px;
+    padding: 40px 20px;
+}
+
+.purchase-prompt__container {
+  padding: 10px 0;
+}
+
+.purchase-prompt__text {
+  font-size: 1.5em;
+  font-weight: 300;
+  margin-right: 10px;
+  color: #5a5a5a;
+}
+
+@media (max-height: 645px) {
+  .status-icon {
+    height: 30px;
+  }
+
+  .status-text {
+    font-size: 1.5em;
+  }
+
+  .status-text-ok {
+    font-size: 4em;
+  }
+
+  .health-text {
+    font-size: 1.5em;
+    padding-top: 10px;
+  }
+
+  .health-icon {
+    width: 22px;
+  }
+
+  .avg-consumption-display__daily {
+    bottom: 11px;
+    font-size: 1em;
+  }
+
+  .consumption-text {
+    display: inline-block;
+    font-size: 3em;
+    margin: 0;
+  }
+
+  .avg-consumption-number {
+    text-align: right;
+    display: inline-block;
+    font-size: 2em;
+  }
+
+}
+ @media (aspect-ratio: 3/4) {
+   
+   .avg-consumption__title {
+     font-size: 4vw;
+   }
+ }

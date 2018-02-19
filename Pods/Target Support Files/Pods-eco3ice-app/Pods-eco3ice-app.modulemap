@@ -1,0 +1,6 @@
+framework module Pods_eco3ice_app {
+  umbrella header "Pods-eco3ice-app-umbrella.h"
+
+  export *
+  module * { export * }
+}

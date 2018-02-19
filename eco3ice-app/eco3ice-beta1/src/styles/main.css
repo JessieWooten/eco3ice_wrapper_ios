@@ -1,0 +1,134 @@
+body {
+  background: -webkit-linear-gradient(bottom left, #25728c, #8ddaf5);
+  background: -o-linear-gradient(bottom left, #25728c, #8ddaf5);
+  background: linear-gradient(to top right, #25728c, #8ddaf5);
+}
+
+/*Framework7 class restyling*/
+.page {
+  background: none !important;
+}
+.pages {
+  background: none !important;
+}
+
+.preloader {
+  height: 20px;
+  width: 20px;
+}
+
+.popup {
+  background: none!important;
+}
+
+.pull-to-refresh-arrow {
+background-image: none !important;
+text-align: center;
+}
+
+.pull-to-refresh-layer:first-of-type {
+    display: none;
+}
+
+.content-block-inner {
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-right: -15px;
+}
+
+.list-block {
+  margin: 0;
+}
+
+.list-block .item-title {
+  white-space: normal;
+}
+
+.inset {
+  margin-top:15px !important;
+  margin-bottom: 15px !important;
+}
+
+.item-inner {
+  padding-right: 0;
+}
+
+.navbar-inner {
+  background-color: #ffffff;
+}
+
+.panel {
+  background-color: #f2f2f2 !important;
+}
+
+.panel-overlay{
+  background: #000 !important;
+  opacity: .7 !important;
+}
+
+.actions-modal-group {
+  background-color: #fff;
+}
+
+.actions-modal-button {
+  width: 50%;
+  display: inline-block;
+  text-align: center;
+  font-size: 18px;
+  margin-top: 6px;
+  margin-bottom: 2px;
+  border-bottom: 0 !important;
+}
+
+.panel-overlay {
+  display: none !important;
+}
+
+.actions-modal-button:after {
+  display: none;
+}
+
+.swiper-pagination-bullet-active {
+  background: #ffffff !important;
+}
+
+li div.item-content .item-inner {
+  padding: 0;
+}
+
+.item-content {
+  padding: 0 !important;
+}
+
+.accordion-item-content {
+  background-color: #f2f2f2 !important;
+}
+
+.item-title {
+  padding-left: 15px;
+}
+
+.swiper-pagination-bullets {
+  bottom: 0 !important;
+}
+
+@media (min-height: 630px) and (min-width: 630px){
+  .popup:not(.tablet-fullscreen) {
+    width: 100vw;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    margin-left: 0;
+    margin-top: 0;
+  }
+  .popup div.flex div.card{
+    height: 20%;
+  }
+}
+
+@media (min-width: 700px) {
+  .content-block.inset {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+}
