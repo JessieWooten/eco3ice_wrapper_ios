@@ -29,7 +29,7 @@ class ViewController: UIViewController, UIWebViewDelegate {
     @IBOutlet weak var webView: UIWebView!
     //var reachability:Reachability?
     
-    private var server: HttpServer?
+    //private var server: HttpServer?
     
 
     
@@ -58,7 +58,7 @@ class ViewController: UIViewController, UIWebViewDelegate {
                 })
             };
             try server.start(80)
-            self.server = server
+            //self.server = server
         } catch {
             print("Server start error: \(error)")
         }
@@ -199,10 +199,18 @@ class ViewController: UIViewController, UIWebViewDelegate {
             }.resume()
     }
     
-//Removes command name from Rename and Capacity commands
+//Removes command name Capacity commands
     func stripCommand(command:String) -> String {
         let indexStartOfText = command.index(command.startIndex, offsetBy: 14)
         return command.substring(from: indexStartOfText)
+    }
+// Removes "Rename:' and command name from Rename commands
+    func stripRenameCommand(command:String) -> String {
+        let indexStartOfText = command.index(command.startIndex, offsetBy: 14)
+        let nameCommand = command.substring(from: indexStartOfText)
+        let nameIndex = nameCommand.index(nameCommand.startIndex, offsetBy: 7)
+        let name = nameCommand.substring(from: nameIndex)
+        return name
     }
     
 //Handle JS requests
@@ -233,10 +241,9 @@ class ViewController: UIViewController, UIWebViewDelegate {
                                     print("Entered the completionHandler")
                                 }.resume()
                             }else if command == "rename" {
-//looksomewhere in here for rename:newname
                                 let withParam = String(describing: request);
                                 print(withParam)
-                                let param = String(stripCommand(command: withParam));
+                                let param = String(stripRenameCommand(command: withParam));
                                 print("|||RENAME|||: ", param!)
                                 let unitUrl = "http://" + selectedUnitIP + ":80/rename?name=" + param!
                                 print("send command to: \(unitUrl)")
@@ -288,6 +295,7 @@ class ViewController: UIViewController, UIWebViewDelegate {
                 case "getdevices": break
                 
                 case "scanble":
+                    // http://192.168.11.4/
                     getWiFiAddress()
                     if (appIP != ""){
                         NSLog("Scan for Ble command received: \(scheme)")
@@ -315,13 +323,13 @@ class ViewController: UIViewController, UIWebViewDelegate {
                                         let dataCheck = String(data: data!, encoding: .utf8)
                                         
                                         //convert to string and check if 'name' is present
-                                        if dataCheck!.range(of: "name") != nil {
+                                        if dataCheck!.range(of: "name") != nil && dataCheck!.range(of: "mac") != nil {
                                             var json = try? JSONSerialization.jsonObject(with: data!, options: []) as! [String:String]
                                             json!["mac"] = reqIP //add ip to json object as 'mac'
                                     
                                             //convert dictionary to string and replace [] with {}
-                                            let deviceStr = String(json!.description)
-                                            let deviceRepl = deviceStr!.replacingOccurrences(of: "\\[", with: "{", options: .regularExpression)
+                                            let deviceStr = String(describing: json!.description)
+                                            let deviceRepl = deviceStr.replacingOccurrences(of: "\\[", with: "{", options: .regularExpression)
                                             let device = deviceRepl.replacingOccurrences(of: "\\]", with: "}", options: .regularExpression)
                                             unitList.append(device)
                                     
