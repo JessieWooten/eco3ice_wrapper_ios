@@ -2,12 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:../../Desktop/swifter-stable/XCode/Swifter.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "container:eco3ice-app.xcodeproj">
-   </FileRef>
-   <FileRef
       location = "group:eco3ice-app.xcodeproj">
    </FileRef>
    <FileRef

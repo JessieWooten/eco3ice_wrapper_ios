@@ -7,12 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0EE9DC583B8D5D9C05FB0D87 /* Pods_eco3ice_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF71F4006878CB333EB0F32 /* Pods_eco3ice_app.framework */; };
-		189FD0F9F90EE2693D30C241 /* Pods_eco3ice_appTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBE4C515A901BDF6CFD73274 /* Pods_eco3ice_appTests.framework */; };
+		347BAB38A8BB37822B610D74 /* Pods_eco3ice_appUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21C22EA744A98657F6D74630 /* Pods_eco3ice_appUITests.framework */; };
 		4F17C85C1FF56FAD0045DA52 /* e3i launch__2048.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F17C85B1FF56FAD0045DA52 /* e3i launch__2048.png */; };
 		4F2715811FCC7E9900DF64B7 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2715801FCC7E9900DF64B7 /* Reachability.swift */; };
 		4F2B52F61FEEECAE006B6E7D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = 4F2B52F51FEEECAE006B6E7D /* Icon */; };
-		4F66A21F203B54D400EF87DD /* eco3ice-beta1 in Resources */ = {isa = PBXBuildFile; fileRef = 4F66A21E203B54D400EF87DD /* eco3ice-beta1 */; };
+		4F306032203B8C1900D31CFC /* AppIcon.appiconset in Resources */ = {isa = PBXBuildFile; fileRef = 4F306031203B8C1900D31CFC /* AppIcon.appiconset */; };
 		4FB1B3EB1F8BE02A008D353C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB1B3EA1F8BE02A008D353C /* AppDelegate.swift */; };
 		4FB1B3ED1F8BE02A008D353C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB1B3EC1F8BE02A008D353C /* ViewController.swift */; };
 		4FB1B3F01F8BE02A008D353C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FB1B3EE1F8BE02A008D353C /* Main.storyboard */; };
@@ -20,7 +19,10 @@
 		4FB1B3F51F8BE02A008D353C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FB1B3F31F8BE02A008D353C /* LaunchScreen.storyboard */; };
 		4FB1B4001F8BE02A008D353C /* eco3ice_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB1B3FF1F8BE02A008D353C /* eco3ice_appTests.swift */; };
 		4FB1B40B1F8BE02A008D353C /* eco3ice_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB1B40A1F8BE02A008D353C /* eco3ice_appUITests.swift */; };
-		5E43431FAE0EB0A345BBCEBC /* Pods_eco3ice_appUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D273C8E6B014C61CA5A51D1 /* Pods_eco3ice_appUITests.framework */; };
+		4FD86DE5203DF35D0028717B /* e3i_launch__2048.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4FD86DE4203DF35D0028717B /* e3i_launch__2048.jpg */; };
+		4FF947432040CB3C0000E926 /* eco3ice-beta1 in Resources */ = {isa = PBXBuildFile; fileRef = 4FF947422040CB3C0000E926 /* eco3ice-beta1 */; };
+		7E4B12611F3F68AC3BFE7C63 /* Pods_eco3ice_appTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3BE3B5F1D2FF52ABF8A7A93 /* Pods_eco3ice_appTests.framework */; };
+		DDFFE95F180EAA0AFCFF2686 /* Pods_eco3ice_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D3D013D8825ECAC6666C79B /* Pods_eco3ice_app.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,14 +56,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0EF71F4006878CB333EB0F32 /* Pods_eco3ice_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_eco3ice_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1C2BAAD89A42CFD398298C14 /* Pods-eco3ice-app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eco3ice-app.debug.xcconfig"; path = "Pods/Target Support Files/Pods-eco3ice-app/Pods-eco3ice-app.debug.xcconfig"; sourceTree = "<group>"; };
-		471D94EA623611B0E0E974EA /* Pods-eco3ice-appTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eco3ice-appTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-eco3ice-appTests/Pods-eco3ice-appTests.release.xcconfig"; sourceTree = "<group>"; };
+		05FFAC2F21C40E7EF3184D11 /* Pods-eco3ice-appUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eco3ice-appUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-eco3ice-appUITests/Pods-eco3ice-appUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		21C22EA744A98657F6D74630 /* Pods_eco3ice_appUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_eco3ice_appUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B6C05D5DABEBE52BE33612B /* Pods-eco3ice-app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eco3ice-app.debug.xcconfig"; path = "Pods/Target Support Files/Pods-eco3ice-app/Pods-eco3ice-app.debug.xcconfig"; sourceTree = "<group>"; };
 		4F17C85B1FF56FAD0045DA52 /* e3i launch__2048.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "e3i launch__2048.png"; sourceTree = "<group>"; };
 		4F1C908D1F9F8A1A00344B61 /* eco3ice-app-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "eco3ice-app-Bridging-Header.h"; sourceTree = "<group>"; };
 		4F2715801FCC7E9900DF64B7 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 		4F2B52F51FEEECAE006B6E7D /* Icon */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Icon; sourceTree = "<group>"; };
-		4F66A21E203B54D400EF87DD /* eco3ice-beta1 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "eco3ice-beta1"; sourceTree = "<group>"; };
+		4F306031203B8C1900D31CFC /* AppIcon.appiconset */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AppIcon.appiconset; sourceTree = "<group>"; };
+		4F42A516203C94F000BFF838 /* Swifter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Swifter.framework; path = "../../Library/Developer/Xcode/DerivedData/eco3ice-app-bvtgrjfxfnuvefcqadfltkiogpco/Build/Products/Debug-iphoneos/Swifter.framework"; sourceTree = "<group>"; };
 		4FB1B3E71F8BE02A008D353C /* eco3ice-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "eco3ice-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FB1B3EA1F8BE02A008D353C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4FB1B3EC1F8BE02A008D353C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -75,12 +78,14 @@
 		4FB1B4061F8BE02A008D353C /* eco3ice-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "eco3ice-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FB1B40A1F8BE02A008D353C /* eco3ice_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eco3ice_appUITests.swift; sourceTree = "<group>"; };
 		4FB1B40C1F8BE02A008D353C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		58C7B7374122595F73FD0523 /* Pods-eco3ice-app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eco3ice-app.release.xcconfig"; path = "Pods/Target Support Files/Pods-eco3ice-app/Pods-eco3ice-app.release.xcconfig"; sourceTree = "<group>"; };
-		5D273C8E6B014C61CA5A51D1 /* Pods_eco3ice_appUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_eco3ice_appUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5D76D66B1CE5F6D5F89DDBA2 /* Pods-eco3ice-appUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eco3ice-appUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-eco3ice-appUITests/Pods-eco3ice-appUITests.release.xcconfig"; sourceTree = "<group>"; };
-		6F5963C4475255E381779177 /* Pods-eco3ice-appUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eco3ice-appUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-eco3ice-appUITests/Pods-eco3ice-appUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		CBE4C515A901BDF6CFD73274 /* Pods_eco3ice_appTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_eco3ice_appTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EAAED10271545D7A34D059FD /* Pods-eco3ice-appTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eco3ice-appTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-eco3ice-appTests/Pods-eco3ice-appTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4FD86DE4203DF35D0028717B /* e3i_launch__2048.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = e3i_launch__2048.jpg; sourceTree = "<group>"; };
+		4FF947422040CB3C0000E926 /* eco3ice-beta1 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "eco3ice-beta1"; sourceTree = "<group>"; };
+		6D3D013D8825ECAC6666C79B /* Pods_eco3ice_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_eco3ice_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC8BCD1373526D46C1293A7B /* Pods-eco3ice-appTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eco3ice-appTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-eco3ice-appTests/Pods-eco3ice-appTests.release.xcconfig"; sourceTree = "<group>"; };
+		B3BE3B5F1D2FF52ABF8A7A93 /* Pods_eco3ice_appTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_eco3ice_appTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF6659553894804F0270D01A /* Pods-eco3ice-appUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eco3ice-appUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-eco3ice-appUITests/Pods-eco3ice-appUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DBBBDAB4DA1CEAB5E8E938C2 /* Pods-eco3ice-app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eco3ice-app.release.xcconfig"; path = "Pods/Target Support Files/Pods-eco3ice-app/Pods-eco3ice-app.release.xcconfig"; sourceTree = "<group>"; };
+		E521339F9989EC59CA86FAC3 /* Pods-eco3ice-appTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eco3ice-appTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-eco3ice-appTests/Pods-eco3ice-appTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0EE9DC583B8D5D9C05FB0D87 /* Pods_eco3ice_app.framework in Frameworks */,
+				DDFFE95F180EAA0AFCFF2686 /* Pods_eco3ice_app.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,7 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				189FD0F9F90EE2693D30C241 /* Pods_eco3ice_appTests.framework in Frameworks */,
+				7E4B12611F3F68AC3BFE7C63 /* Pods_eco3ice_appTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,7 +109,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E43431FAE0EB0A345BBCEBC /* Pods_eco3ice_appUITests.framework in Frameworks */,
+				347BAB38A8BB37822B610D74 /* Pods_eco3ice_appUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,9 +119,10 @@
 		03137DC386077A23B5699B96 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0EF71F4006878CB333EB0F32 /* Pods_eco3ice_app.framework */,
-				CBE4C515A901BDF6CFD73274 /* Pods_eco3ice_appTests.framework */,
-				5D273C8E6B014C61CA5A51D1 /* Pods_eco3ice_appUITests.framework */,
+				4F42A516203C94F000BFF838 /* Swifter.framework */,
+				6D3D013D8825ECAC6666C79B /* Pods_eco3ice_app.framework */,
+				B3BE3B5F1D2FF52ABF8A7A93 /* Pods_eco3ice_appTests.framework */,
+				21C22EA744A98657F6D74630 /* Pods_eco3ice_appUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -128,8 +134,8 @@
 				4FB1B3FE1F8BE02A008D353C /* eco3ice-appTests */,
 				4FB1B4091F8BE02A008D353C /* eco3ice-appUITests */,
 				4FB1B3E81F8BE02A008D353C /* Products */,
-				CF5F68A419F459FE6957B3EF /* Pods */,
 				03137DC386077A23B5699B96 /* Frameworks */,
+				AB81341A9B17F56B56933B48 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -146,14 +152,16 @@
 		4FB1B3E91F8BE02A008D353C /* eco3ice-app */ = {
 			isa = PBXGroup;
 			children = (
-				4F66A21E203B54D400EF87DD /* eco3ice-beta1 */,
+				4FF947422040CB3C0000E926 /* eco3ice-beta1 */,
 				4FB1B3EA1F8BE02A008D353C /* AppDelegate.swift */,
 				4FB1B3EC1F8BE02A008D353C /* ViewController.swift */,
 				4F2715801FCC7E9900DF64B7 /* Reachability.swift */,
 				4FB1B3EE1F8BE02A008D353C /* Main.storyboard */,
 				4F17C85B1FF56FAD0045DA52 /* e3i launch__2048.png */,
+				4FD86DE4203DF35D0028717B /* e3i_launch__2048.jpg */,
 				4FB1B3F11F8BE02A008D353C /* Assets.xcassets */,
 				4FB1B3F31F8BE02A008D353C /* LaunchScreen.storyboard */,
+				4F306031203B8C1900D31CFC /* AppIcon.appiconset */,
 				4F2B52F51FEEECAE006B6E7D /* Icon */,
 				4FB1B3F61F8BE02A008D353C /* Info.plist */,
 				4F1C908D1F9F8A1A00344B61 /* eco3ice-app-Bridging-Header.h */,
@@ -179,15 +187,15 @@
 			path = "eco3ice-appUITests";
 			sourceTree = "<group>";
 		};
-		CF5F68A419F459FE6957B3EF /* Pods */ = {
+		AB81341A9B17F56B56933B48 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1C2BAAD89A42CFD398298C14 /* Pods-eco3ice-app.debug.xcconfig */,
-				58C7B7374122595F73FD0523 /* Pods-eco3ice-app.release.xcconfig */,
-				EAAED10271545D7A34D059FD /* Pods-eco3ice-appTests.debug.xcconfig */,
-				471D94EA623611B0E0E974EA /* Pods-eco3ice-appTests.release.xcconfig */,
-				6F5963C4475255E381779177 /* Pods-eco3ice-appUITests.debug.xcconfig */,
-				5D76D66B1CE5F6D5F89DDBA2 /* Pods-eco3ice-appUITests.release.xcconfig */,
+				2B6C05D5DABEBE52BE33612B /* Pods-eco3ice-app.debug.xcconfig */,
+				DBBBDAB4DA1CEAB5E8E938C2 /* Pods-eco3ice-app.release.xcconfig */,
+				E521339F9989EC59CA86FAC3 /* Pods-eco3ice-appTests.debug.xcconfig */,
+				AC8BCD1373526D46C1293A7B /* Pods-eco3ice-appTests.release.xcconfig */,
+				05FFAC2F21C40E7EF3184D11 /* Pods-eco3ice-appUITests.debug.xcconfig */,
+				BF6659553894804F0270D01A /* Pods-eco3ice-appUITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -199,13 +207,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4FB1B40F1F8BE02A008D353C /* Build configuration list for PBXNativeTarget "eco3ice-app" */;
 			buildPhases = (
-				A84205B70AC5DEDA3A351039 /* [CP] Check Pods Manifest.lock */,
+				3DCA44EE2720AE6F8627DA47 /* [CP] Check Pods Manifest.lock */,
 				4FB1B3E31F8BE02A008D353C /* Sources */,
 				4FB1B3E41F8BE02A008D353C /* Frameworks */,
 				4FB1B3E51F8BE02A008D353C /* Resources */,
 				4FFB53081F91798400197C18 /* Embed Frameworks */,
-				850899B99173348DEAB09765 /* [CP] Embed Pods Frameworks */,
-				D3A555DAF34CC97DEB379079 /* [CP] Copy Pods Resources */,
+				2E908D187F1226CA89BE506D /* [CP] Embed Pods Frameworks */,
+				5C80E3BD9DE8696B39DAAB4D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -220,12 +228,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4FB1B4121F8BE02A008D353C /* Build configuration list for PBXNativeTarget "eco3ice-appTests" */;
 			buildPhases = (
-				6586149775A7095EFF1CCB7D /* [CP] Check Pods Manifest.lock */,
+				2518C7672FBA9D7AF2898BBF /* [CP] Check Pods Manifest.lock */,
 				4FB1B3F71F8BE02A008D353C /* Sources */,
 				4FB1B3F81F8BE02A008D353C /* Frameworks */,
 				4FB1B3F91F8BE02A008D353C /* Resources */,
-				A95158F921A772A61230566D /* [CP] Embed Pods Frameworks */,
-				3F7EA3FDF24C69D24BEF8EFF /* [CP] Copy Pods Resources */,
+				CAC223F4568047143B8D451C /* [CP] Embed Pods Frameworks */,
+				0C75B34A4354C3D007904F70 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -241,12 +249,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4FB1B4151F8BE02A008D353C /* Build configuration list for PBXNativeTarget "eco3ice-appUITests" */;
 			buildPhases = (
-				084CAE48E0FC2890F4AF7945 /* [CP] Check Pods Manifest.lock */,
+				D2C27CFE3C65735D464AEA04 /* [CP] Check Pods Manifest.lock */,
 				4FB1B4021F8BE02A008D353C /* Sources */,
 				4FB1B4031F8BE02A008D353C /* Frameworks */,
 				4FB1B4041F8BE02A008D353C /* Resources */,
-				D601C46A64027FB78CDFDC26 /* [CP] Embed Pods Frameworks */,
-				3006895D2435C33CE7715478 /* [CP] Copy Pods Resources */,
+				3F4FA981F9801FFD320A9BD6 /* [CP] Embed Pods Frameworks */,
+				1B373729B6253FAEF77B7766 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -311,10 +319,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F66A21F203B54D400EF87DD /* eco3ice-beta1 in Resources */,
 				4FB1B3F51F8BE02A008D353C /* LaunchScreen.storyboard in Resources */,
 				4FB1B3F21F8BE02A008D353C /* Assets.xcassets in Resources */,
+				4FF947432040CB3C0000E926 /* eco3ice-beta1 in Resources */,
+				4FD86DE5203DF35D0028717B /* e3i_launch__2048.jpg in Resources */,
 				4F17C85C1FF56FAD0045DA52 /* e3i launch__2048.png in Resources */,
+				4F306032203B8C1900D31CFC /* AppIcon.appiconset in Resources */,
 				4FB1B3F01F8BE02A008D353C /* Main.storyboard in Resources */,
 				4F2B52F61FEEECAE006B6E7D /* Icon in Resources */,
 			);
@@ -337,40 +347,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		084CAE48E0FC2890F4AF7945 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-eco3ice-appUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3006895D2435C33CE7715478 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-eco3ice-appUITests/Pods-eco3ice-appUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3F7EA3FDF24C69D24BEF8EFF /* [CP] Copy Pods Resources */ = {
+		0C75B34A4354C3D007904F70 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -385,7 +362,22 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-eco3ice-appTests/Pods-eco3ice-appTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		6586149775A7095EFF1CCB7D /* [CP] Check Pods Manifest.lock */ = {
+		1B373729B6253FAEF77B7766 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-eco3ice-appUITests/Pods-eco3ice-appUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2518C7672FBA9D7AF2898BBF /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -403,7 +395,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		850899B99173348DEAB09765 /* [CP] Embed Pods Frameworks */ = {
+		2E908D187F1226CA89BE506D /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -421,7 +413,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-eco3ice-app/Pods-eco3ice-app-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A84205B70AC5DEDA3A351039 /* [CP] Check Pods Manifest.lock */ = {
+		3DCA44EE2720AE6F8627DA47 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -439,7 +431,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A95158F921A772A61230566D /* [CP] Embed Pods Frameworks */ = {
+		3F4FA981F9801FFD320A9BD6 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -451,10 +443,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-eco3ice-appTests/Pods-eco3ice-appTests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-eco3ice-appUITests/Pods-eco3ice-appUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D3A555DAF34CC97DEB379079 /* [CP] Copy Pods Resources */ = {
+		5C80E3BD9DE8696B39DAAB4D /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -469,7 +461,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-eco3ice-app/Pods-eco3ice-app-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D601C46A64027FB78CDFDC26 /* [CP] Embed Pods Frameworks */ = {
+		CAC223F4568047143B8D451C /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -481,7 +473,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-eco3ice-appUITests/Pods-eco3ice-appUITests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-eco3ice-appTests/Pods-eco3ice-appTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2C27CFE3C65735D464AEA04 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-eco3ice-appUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -645,7 +655,7 @@
 		};
 		4FB1B4101F8BE02A008D353C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1C2BAAD89A42CFD398298C14 /* Pods-eco3ice-app.debug.xcconfig */;
+			baseConfigurationReference = 2B6C05D5DABEBE52BE33612B /* Pods-eco3ice-app.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -653,12 +663,12 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = W82NS7G9T7;
 				INFOPLIST_FILE = "eco3ice-app/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "franke.eco3ice-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SDKROOT = iphoneos10.3;
+				SDKROOT = iphoneos;
 				SWIFT_OBJC_BRIDGING_HEADER = "eco3ice-app/eco3ice-app-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
@@ -668,7 +678,7 @@
 		};
 		4FB1B4111F8BE02A008D353C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 58C7B7374122595F73FD0523 /* Pods-eco3ice-app.release.xcconfig */;
+			baseConfigurationReference = DBBBDAB4DA1CEAB5E8E938C2 /* Pods-eco3ice-app.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -676,12 +686,12 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = W82NS7G9T7;
 				INFOPLIST_FILE = "eco3ice-app/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "franke.eco3ice-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SDKROOT = iphoneos10.3;
+				SDKROOT = iphoneos;
 				SWIFT_OBJC_BRIDGING_HEADER = "eco3ice-app/eco3ice-app-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -690,7 +700,7 @@
 		};
 		4FB1B4131F8BE02A008D353C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EAAED10271545D7A34D059FD /* Pods-eco3ice-appTests.debug.xcconfig */;
+			baseConfigurationReference = E521339F9989EC59CA86FAC3 /* Pods-eco3ice-appTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -705,7 +715,7 @@
 		};
 		4FB1B4141F8BE02A008D353C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 471D94EA623611B0E0E974EA /* Pods-eco3ice-appTests.release.xcconfig */;
+			baseConfigurationReference = AC8BCD1373526D46C1293A7B /* Pods-eco3ice-appTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -720,7 +730,7 @@
 		};
 		4FB1B4161F8BE02A008D353C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6F5963C4475255E381779177 /* Pods-eco3ice-appUITests.debug.xcconfig */;
+			baseConfigurationReference = 05FFAC2F21C40E7EF3184D11 /* Pods-eco3ice-appUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = "eco3ice-appUITests/Info.plist";
@@ -734,7 +744,7 @@
 		};
 		4FB1B4171F8BE02A008D353C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5D76D66B1CE5F6D5F89DDBA2 /* Pods-eco3ice-appUITests.release.xcconfig */;
+			baseConfigurationReference = BF6659553894804F0270D01A /* Pods-eco3ice-appUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = "eco3ice-appUITests/Info.plist";
